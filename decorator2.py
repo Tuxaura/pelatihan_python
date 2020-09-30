@@ -9,7 +9,7 @@ def pembagi(func):
     return fun_internal
 
 
-@pembagi
+# @pembagi
 def bagi(a, b):
     print(a/b)
 

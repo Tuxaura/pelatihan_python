@@ -5,10 +5,11 @@ def fun_pemanis(func):
     return fun_dalam
 
 
+@fun_pemanis
 def asli():
     print("Saya masih orisinil")
 
 
 # asli()
-# manis = fun_pemanis(asli)
-# manis()
+manis = fun_pemanis(asli)
+manis()
