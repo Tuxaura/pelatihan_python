@@ -18,6 +18,6 @@ message.attach(MIMEImage(Path("python.jpg").read_bytes()))
 with smtplib.SMTP(host="smtp.gmail.com", port=587) as smtp:
     smtp.ehlo()
     smtp.starttls()
-    smtp.login("bebenx@gmail.com", "Bismillah.1")
+    smtp.login("bebenx@gmail.com", "")
     smtp.send_message(message)
     print("sent")
